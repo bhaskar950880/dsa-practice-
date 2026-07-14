@@ -1,5 +1,4 @@
-import java.util.Scanner;
-
+import java.util.*;
 public class number1to0toallzero {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -15,7 +14,6 @@ public class number1to0toallzero {
             }
             if (count % 2 != 0) {
                 System.out.println("no");
-                break;
             }
             else{
                 System.out.println("yes");
